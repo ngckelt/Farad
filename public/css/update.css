@@ -1,0 +1,21 @@
+.container {
+    align-items: start;
+}
+
+.container .update_title {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#update_form {
+    width: 80%;
+    max-width: 500px;
+    margin-left: 25px;
+}
+
+#update_btn {
+    max-width: 200px;
+}
+

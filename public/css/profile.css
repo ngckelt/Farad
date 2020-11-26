@@ -1,0 +1,139 @@
+.rating-wrapper
+{
+	margin-left: 15px;
+	position: sticky;
+	top: 20px;
+}
+.wrapper
+{
+	max-width: 650px;
+	min-width: 350px;
+	width: auto;
+}
+.info,.feedback, .session__data
+{
+	align-items: start;
+	justify-content: flex-start;
+}
+.info h4
+{
+	font-size: 1.2rem;
+	margin: 8px 0;
+}
+.mail .row,.color__mode .row
+{
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.color__mode__btns
+{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+}
+.color__mode__btns a
+{
+	margin: 0 5px;
+}
+#light
+{
+	background-color: var(--text-color);
+	color: var(--dark-bg);
+	transition: var(--general-transition);
+}
+#light:hover
+{
+	background-color: #cfcfcf;
+}
+#dark
+{
+	background-color: var(--light-bg);
+	color: var(--text-color);
+	transition: var(--general-transition);
+}
+#dark:hover
+{
+	background-color: #112953;
+}
+.feedback p
+{
+	margin-top: 10px;
+}
+form
+{
+	margin-top: 32px;
+	position: relative;
+	width: 100%;
+}
+#message
+{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid var(--text-color);
+	color: var(--text-color);
+	font-size: 1.2rem;
+	height: 32px;
+	max-height: 120px;
+	max-width: 100%;
+	min-width: 100%;
+	outline: 0;
+	transition: var(--general-transition);
+}
+form label
+{
+	color: var(--text-color);
+	font-size: 1rem;
+	font-weight: 500;
+	left: 0;
+	position: absolute;
+	top: -2px;
+	transition: var(--general-transition);
+}
+#message:focus
+{
+	border-bottom: 2px solid var(--light-blue);
+}
+#message:focus ~ label
+{
+	color: var(--light-blue);
+	font-size: .9rem;
+	top: -22px;
+}
+#message:valid ~ label
+{
+	color: var(--light-blue);
+	font-size: .9rem;
+	top: -22px;
+}
+#message__alert
+{
+	background-color: #af0202;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: var(--text-color);
+	display: none;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 1rem;
+	width: 100%;
+}
+#submit
+{
+	margin-top: 12px;
+}
+
+.update_title {
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#update_form {
+    width: 95%;
+}
+
+#update_btn {
+    max-width: 200px;
+}

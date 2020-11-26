@@ -1,0 +1,595 @@
+/* Общие стили */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, var(--dark-bg), var(--light-bg));
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+}
+
+.container {
+    box-sizing: border-box;
+    padding-top: 30px;
+    min-width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Прелоадер */
+
+#preloader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(182, 182, 182, 0.8);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preloader h2 {
+    font-size: 5rem;
+    color: rgb(17, 17, 17);
+    opacity: 1;
+    text-align: center;
+}
+
+
+/* Формула */
+
+.formula__name {
+    width: 650px;
+    margin: 0 auto;
+    color: #f4f4f4;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.formula__name h4 {
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+}
+
+#numerator, #denumerator {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 5;
+}
+
+#numerator {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#denumerator {
+    align-items: flex-start;
+}
+
+.target {
+    min-width: 54px;
+    min-height: 54px; 
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+    transition: all 120ms ease;
+    margin: 0 9px;
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+}
+
+.formula-wrapper {
+    margin: 0 auto;
+    min-width: 600px;
+    width: auto !important;
+    min-height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.require-wrapper {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.require {
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0 !important;
+}
+
+.require p {
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+    font-size: 3rem;
+}
+
+.require span {
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+    font-size: 3rem;
+    margin-right: 3px;
+}
+
+.fractional__line {
+    height: 3px;
+    background-color: #fff;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+}
+
+.factor {
+    position: absolute;
+    right: -65px;
+    top: 83px;
+    opacity: 0;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+}
+
+/* Иконки */
+
+.item {
+    min-width: 50px;
+    min-height: 50px; 
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    cursor: pointer;
+    position: absolute;
+    transition: all 300ms cubic-bezier(0.2, 1.14, 0.83, 0.99);
+    font-size: 1.55rem;
+    animation: fadeIn 1s ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    padding: 2px;
+}
+
+.item span {
+    transition: all 200ms cubic-bezier(0.2, 1.14, 0.83, 0.99);
+}
+
+.item:hover {
+    border: 2px solid #022dba;
+    box-shadow: 0 0 9px #022dba;
+}
+
+.item:hover span {
+    color: #022dba;
+}
+
+.items-wrapper {
+    margin: 0 auto;
+    max-width: 370px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Навигация */
+
+.nav {
+    
+    margin: 20px auto;
+    min-width: 350px;
+}
+
+.btns-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #022dba;
+    color: #f4f4f4;
+    outline: 0 !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 250ms ease;
+    font-size: 0.8rem;
+    font-weight: 600;
+    overflow: hidden; 
+    position: relative;
+    z-index: 10;
+}
+
+.next i {
+    margin-left: 8px;
+    font-size: 1.1rem;
+    transition: all 250ms ease;
+}
+
+.next:hover {
+    background-color: #001d7c;
+}
+
+.next:hover i {
+    margin-left: 14px;
+}
+
+.back {
+    width: 70px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #f4f4f4;
+    margin-right: 10px;
+    outline: 0;
+    background-color: transparent;
+    border: 2px solid #f4f4f4 !important;
+    font-size: 1.2rem;
+}
+
+/* Выход */
+
+#exit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--text-color);
+    padding: 0.5rem .3rem;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Кнопка для удаления лишних символов*/
+#help_btn {
+    margin-top: 20px;
+}
+
+/* Блок с подсказкой */
+
+#hint {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    max-width: 400px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b65ff;
+    transition: all 500ms ease;
+    color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px #0b65ff;
+    opacity: 0;
+    animation: show_hint .8s ease;
+    animation-fill-mode: forwards;
+}
+
+#close_hint {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #f4f4f4;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
+@keyframes show_hint {
+    to {
+        top: 120px;
+        opacity: 1;
+    }
+}
+
+
+/* Классы для js */
+
+.numerator__center {
+    align-items: center !important;
+}
+
+.denumerator__hidden  {
+    height: 0 !important;
+}
+
+.fractional__line__hidden {
+    height: 0 !important;
+}
+
+.disabled {
+    border: 2px solid transparent !important;
+    background-color: rgb(119, 119, 119) !important;
+    pointer-events: none !important;
+}
+
+.disabled__item {
+    border: 2px solid rgb(119, 119, 119) !important;
+    pointer-events: none !important;
+    color: rgb(119, 119, 119) !important;
+}
+
+.disabled__item span {
+    color: rgb(119, 119, 119) !important;
+}
+
+.next_btn_disabled {
+    pointer-events: none;
+   /*  border: 2px solid rgb(119, 119, 119); */
+}
+
+.item__anchor {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    border: 2px solid #940000 !important;
+    pointer-events: none !important;
+}
+
+.red span {
+    color: #940000 !important;
+}
+
+.correct {
+    transition: none !important;
+    color: #022dba !important;
+    border: 2px solid #022dba !important;
+    pointer-events: none !important;
+}
+
+.correct span {
+    color: #022dba !important;
+}
+
+.target__active {
+    border: 2px solid #022dba;
+    box-shadow: 0 0 12px #022dba;
+}
+
+.require {
+    border: 0 !important;
+}
+
+
+
+
+
+/* Пульсирующий эффект */
+.btn_overlay {
+    background-color: rgb(119, 119, 119);
+    border-radius: 50%; 
+    position: absolute;
+    z-index: -1;
+    animation: pulse_next_btn 0.7s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pulse_next_btn {
+    to {
+       transform: scale(50);
+    }
+}
+
+
+/* Медиа запросы */
+
+
+@media screen and (max-width: 960px) {
+
+    body {
+        background: var(--dark-bg);
+    }
+
+    .formula-wrapper {
+        max-width: 80%;
+        min-width: unset;
+    }
+
+    .container {
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+        min-width: unset;
+        max-width: 100%;
+    }
+
+    .item:hover {
+        border: 2px solid var(--text-color);
+        box-shadow: unset;   
+    }
+
+    .item:hover span {
+        color: var(--text-color);    
+    } 
+
+    .next:hover i {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .container {
+        padding-top: 20px;
+    }
+
+    .formula__name {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .formula-wrapper {
+        max-width: 100%;
+    }
+
+    .formula__name h4 {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        width: 90%;
+    }
+
+    .btns-wrapper  {
+        width: 100%;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .btns-wrapper .back {
+        width: 30%;
+    }
+
+    .btns-wrapper .next {
+        width: 65%;
+        font-size: 0.7rem;
+    }
+
+    .btns-wrapper .back {
+        margin-left: 0;
+    }
+
+    .btns-wrapper #next {
+        margin-right: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .container {
+        padding-top: 0;
+    }
+
+    .target {
+        margin: 5px;
+    }
+
+    .item {
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .target {
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .items-wrapper {
+        justify-content: center;
+        width: 92%;
+    }
+
+    .require p {
+        font-size: 1.9rem;
+    }
+
+    .item span {
+        font-size: 1.2rem;
+    }
+
+    .require span {
+        font-size: 1.9rem;
+    }
+
+    .btns-wrapper {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #exit {
+        width: 80%;
+        margin: 8px auto;
+
+    }
+
+    #help_btn {
+        width: 80%;
+        margin: 10px auto 0 auto;
+    }
+
+    .nav {
+        margin-top: 25px;
+        max-width: 100%;
+        min-width: unset;
+    }
+
+    .fractional__line {
+        margin: 4px;
+    }
+
+    .formula-wrapper {
+        max-height: 200px;
+        min-height: 110px; 
+    }
+
+    .btns-wrapper .next {
+        font-size: 0.58rem;
+    }
+
+    .factor {
+        right: -50px;
+        top: 80px;
+    }
+  
+}
+
+@media screen and (max-width: 370px) {
+
+    .formula__name h4 {
+        font-size: 1.25rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

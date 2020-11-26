@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'math-font';
+  src:  url('../fonts/math-font.eot?yfn2lb');
+  src:  url('../fonts/math-font.eot?yfn2lb#iefix') format('embedded-opentype'),
+    url('../fonts/math-font.ttf?yfn2lb') format('truetype'),
+    url('../fonts/math-font.woff?yfn2lb') format('woff'),
+    url('../fonts/math-font.svg?yfn2lb#math-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'math-font' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-math_1-mlog-a-b:before {
+  content: "\e900";
+}
+.icon-math_axy:before {
+  content: "\e901";
+}
+.icon-math_abx:before {
+  content: "\e902";
+}
+.icon-math_a-bx:before {
+  content: "\e903";
+}
+.icon-math_nrt-ak:before {
+  content: "\e904";
+}
+.icon-math_plus-minus:before {
+  content: "\e905";
+}
+.icon-math_1-a:before {
+  content: "\e906";
+}
+.icon-math_1-qn:before {
+  content: "\e907";
+}
+.icon-math_a0:before {
+  content: "\e908";
+}
+.icon-math_a-1:before {
+  content: "\e909";
+}
+.icon-math_alog-a-b:before {
+  content: "\e90a";
+}
+.icon-math_an-k:before {
+  content: "\e90b";
+}
+.icon-math_ax:before {
+  content: "\e90c";
+}
+.icon-math_axy1:before {
+  content: "\e90d";
+}
+.icon-math_axy2:before {
+  content: "\e90e";
+}
+.icon-math_ax-y:before {
+  content: "\e90f";
+}
+.icon-math_ay:before {
+  content: "\e910";
+}
+.icon-math_a-11:before {
+  content: "\e911";
+}
+.icon-math_a-n:before {
+  content: "\e912";
+}
+.icon-math_a-n1:before {
+  content: "\e913";
+}
+.icon-math_a-n-1:before {
+  content: "\e914";
+}
+.icon-math_bx:before {
+  content: "\e915";
+}
+.icon-math_b-1:before {
+  content: "\e916";
+}
+.icon-math_b-n:before {
+  content: "\e917";
+}
+.icon-math_b-n1:before {
+  content: "\e918";
+}
+.icon-math_b-n-1:before {
+  content: "\e919";
+}
+.icon-math_cosxy:before {
+  content: "\e91a";
+}
+.icon-math_cosx-y:before {
+  content: "\e91b";
+}
+.icon-math_cos2x:before {
+  content: "\e91c";
+}
+.icon-math_cosx:before {
+  content: "\e91d";
+}
+.icon-math_cosy:before {
+  content: "\e91e";
+}
+.icon-math_ctgx-y:before {
+  content: "\e91f";
+}
+.icon-math_ctg2x:before {
+  content: "\e920";
+}
+.icon-math_ctgx:before {
+  content: "\e921";
+}
+.icon-math_d:before {
+  content: "\e922";
+}
+.icon-math_krt-an:before {
+  content: "\e923";
+}
+.icon-math_log-a-b-c:before {
+  content: "\e924";
+}
+.icon-math_log-am-b:before {
+  content: "\e925";
+}
+.icon-math_log-a-1:before {
+  content: "\e926";
+}
+.icon-math_log-a-a:before {
+  content: "\e927";
+}
+.icon-math_log-a-ac:before {
+  content: "\e928";
+}
+.icon-math_log-a-b:before {
+  content: "\e929";
+}
+.icon-math_log-a-bq:before {
+  content: "\e92a";
+}
+.icon-math_log-a-bc:before {
+  content: "\e92b";
+}
+.icon-math_log-a-c:before {
+  content: "\e92c";
+}
+.icon-math_log-b-a:before {
+  content: "\e92d";
+}
+.icon-math_log-c-a:before {
+  content: "\e92e";
+}
+.icon-math_log-c-b:before {
+  content: "\e92f";
+}
+.icon-math_minus:before {
+  content: "\e930";
+}
+.icon-math_n:before {
+  content: "\e931";
+}
+.icon-math_n-1:before {
+  content: "\e932";
+}
+.icon-math_nrta-b:before {
+  content: "\e933";
+}
+.icon-math_nrt-a:before {
+  content: "\e934";
+}
+.icon-math_nrt-ak1:before {
+  content: "\e935";
+}
+.icon-math_nrt-ab:before {
+  content: "\e936";
+}
+.icon-math_nrt-b:before {
+  content: "\e937";
+}
+.icon-math_plus:before {
+  content: "\e938";
+}
+.icon-math_q:before {
+  content: "\e939";
+}
+.icon-math_qn-1:before {
+  content: "\e93a";
+}
+.icon-math_qloga-b:before {
+  content: "\e93b";
+}
+.icon-math_sinxy:before {
+  content: "\e93c";
+}
+.icon-math_sinx-y:before {
+  content: "\e93d";
+}
+.icon-math_sinyx:before {
+  content: "\e93e";
+}
+.icon-math_siny-x:before {
+  content: "\e93f";
+}
+.icon-math_sin2x:before {
+  content: "\e940";
+}
+.icon-math_sinx:before {
+  content: "\e941";
+}
+.icon-math_siny:before {
+  content: "\e942";
+}
+.icon-math_s-n:before {
+  content: "\e943";
+}
+.icon-math_sqb-n:before {
+  content: "\e944";
+}
+.icon-math_sqcosx-2:before {
+  content: "\e945";
+}
+.icon-math_sqcosx:before {
+  content: "\e946";
+}
+.icon-math_sqctgx-2:before {
+  content: "\e947";
+}
+.icon-math_sqctgx:before {
+  content: "\e948";
+}
+.icon-math_sqsinx-2:before {
+  content: "\e949";
+}
+.icon-math_sqsinx:before {
+  content: "\e94a";
+}
+.icon-math_sqtgx-2:before {
+  content: "\e94b";
+}
+.icon-math_sqtgx:before {
+  content: "\e94c";
+}
+.icon-math_tgx-y:before {
+  content: "\e94d";
+}
+.icon-math_tg2x:before {
+  content: "\e94e";
+}
+.icon-math_tgx:before {
+  content: "\e94f";
+}
+.icon-math_tgy-48:before {
+  content: "\e950";
+}
+.icon-math_tgy-60:before {
+  content: "\e951";
+}

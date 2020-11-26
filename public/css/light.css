@@ -1,0 +1,195 @@
+body {
+    background: #f6f6f6;
+}
+
+main {
+    background: #f6f6f6;
+}
+
+aside {
+    background: #f8f8f8;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+}
+
+
+.wrapper {
+    background: #f8f8f8;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+}
+
+
+.note {
+    color: #213282 !important;
+}
+
+#find {
+    background: #f6f6f6;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+}
+
+#find::placeholder {
+    color: #213282 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #212121;
+}
+
+.btn {
+    background-color: #213282;
+}
+
+.btn:hover {
+    background-color: #112063;
+}
+
+aside i {
+    color: #030612;
+}
+
+.formula__name {
+    color: #213282;
+}
+
+.wrapper span {
+    color: #030612;
+}
+
+.wrapper .item span {
+    color: #030612;
+}
+
+.wrapper .fractional__line {
+    background-color: #030612;
+}
+
+.nav__item:hover {
+    background-color: #213282;
+}
+
+.nav__item p, .nav__item i {
+    transform: all 400ms ease !important;
+} 
+
+.nav__item:hover p {
+    color: #f8f8f8;
+}
+
+.nav__item:hover i {
+    color: #f8f8f8;
+}
+
+label {
+    color: #213282 !important;
+}
+
+.wrapper {
+    color:#030612;;
+}
+
+.wrapper .require p {
+    color: #030612;
+}
+
+.favorite {
+    color: #030612;
+}
+
+.favorite:hover {
+    color: #162e8f;
+}
+
+.disabled {
+    color: rgb(131, 131, 131) !important;
+}
+
+.disabled_btn {
+    background-color: #555555 !important;
+}
+
+
+/* Изучение */
+.item {
+    border: 2px solid #213282;
+}
+
+.item span {
+    color: #213282;
+}
+
+.target {
+    border: 2px solid #213282;
+}
+
+.require p {
+    color: #213282;
+}
+
+.fractional__line {
+    background-color: #213282;
+}
+
+.back {
+    color: rgb(65, 60, 60);
+    border: 2px solid rgb(119, 119, 119) !important;
+}
+
+.formula__name h4 {
+    color: #213282;
+}
+
+#exit {
+    border: 2px solid rgb(119, 119, 119);
+    color: rgb(119, 119, 119);
+}
+
+.wrapper .item {
+    border: none;
+}
+
+.input-wrapper input:focus, .input-wrapper input:valid {
+    border-bottom: 1px solid #213282;
+}
+
+.input-wrapper {
+    border-bottom: 1px solid #213282;
+}
+
+.input-wrapper input {
+    color: #030612;
+}
+
+footer {
+    font-weight: 500;
+}
+
+footer a {
+    color: #030612;
+}
+
+.error__block {
+    color: #f6f6f6;
+}
+
+@media screen and (max-width: 960px) {
+
+    .item:hover {
+        border: 2px solid var(--blue);
+        box-shadow: unset;   
+    }
+
+    .item:hover span {
+        color: var(--blue);    
+    } 
+
+    .aside__visible {
+        background:#f8f8f8;
+    }
+
+    .burger-wrapper {
+        background: #f8f8f8;
+        border: 2px solid #213282;
+        box-shadow: 0 0 10px #213282;   
+    }
+
+}

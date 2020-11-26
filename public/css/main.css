@@ -1,0 +1,14 @@
+@media screen and (min-width:960px) {
+    aside {
+        width:430px; 
+    }
+    
+    main
+    {
+        padding:8vh 0 0 540px;
+        
+    }
+}
+
+
+

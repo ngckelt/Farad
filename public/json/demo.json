@@ -1,0 +1,61 @@
+[
+    {
+        "id": "003",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Конечная скорость",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_plus\"></span>","<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", 
+            "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>"],
+        "numerator_order" : "sum_mult"
+    },
+    {
+        "id": "022",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Второй закон Ньютона",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_x-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "081",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Закон Ома",
+        "require": "<span class=\"icon-phys_i-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_u-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "087",
+        "theme": "Свойства степеней",
+        "subject": "math",
+        "name": "Свойство степеней",
+        "require": "<span class=\"icon-math_ax-y\"></span>",
+        "numerator" : ["<span class=\"icon-math_ax\"></span>"],
+        "denumerator": ["<span class=\"icon-math_ay\"></span>"],
+        "random_chars" : ["<span class=\"icon-math_a-11\"></span>", "<span class=\"icon-math_a-n\"></span>", "<span class=\"icon-math_a-n1\"></span>",
+            "<span class=\"icon-math_a-n-1\"></span>", "<span class=\"icon-math_ax-y\"></span>" ,"<span class=\"icon-math_a0\"></span>", "<span class=\"icon-math_axy\"></span>", "<span class=\"icon-math_krt-an\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "112",
+        "theme": "Тригонометрия",
+        "subject": "math",
+        "name": "Основное тригонометрическое тождество",
+        "require": "<span class=\"icon-math_1\"></span>",
+        "numerator" : ["<span class=\"icon-math_sqsinx\"></span>", "<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-math_sqcosx\"></span>"],
+        "random_chars" : ["<span class=\"icon-math_sinxy\"></span>", "<span class=\"icon-math_sinx-y\"></span>", "<span class=\"icon-math_sin2x\"></span>",
+            "<span class=\"icon-math_siny\"></span>", "<span class=\"icon-math_sinx\"></span>" ,"<span class=\"icon-math_sqctgx\"></span>", "<span class=\"icon-math_tg2x\"></span>", "<span class=\"icon-math_tgx\"></span>"],
+        "numerator_order" : "sum"
+    }
+]

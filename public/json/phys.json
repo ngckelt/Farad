@@ -1,0 +1,1091 @@
+
+[ 
+    {
+        "id": "001",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Путь при равномерном движении",
+        "require": "<span class=\"icon-phys_l-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", 
+            "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_n-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "002",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Ускорение",
+        "require": "<span class=\"icon-phys_a-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_minus\"></span>","<span class=\"icon-phys_v-sm-0\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", 
+            "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "numerator_order" : "diff",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "003",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Конечная скорость",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_plus\"></span>","<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", 
+            "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>"],
+        "numerator_order" : "sum_mult"
+    },
+
+
+    {
+        "id": "004",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Перемещение при равноускоренном движении",
+        "require": "<span class=\"icon-phys_s-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_t-sm\"></span>", "<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-phys_05\"></span>","<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_l-lg\"></span>", 
+            "<span class=\"icon-phys_f-lg\"></span>", "<span class=\"icon-phys_sq-v-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>"],
+        "numerator_order" : "sum_mult"
+    },
+    {
+        "id": "005",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Перемещение при равноускоренном движении",
+        "require": "<span class=\"icon-phys_s-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_a-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_f-lg\"></span>", "<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>"],
+        "numerator_order" : "diff",
+        "denumerator_order" : "none"
+    },
+
+    {
+        "id": "006",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Перемещение при равноускоренном движении",
+        "require": "<span class=\"icon-phys_s-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-phys_v-sm-0\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>"],
+        "factor": ["<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "sum",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "007",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Максимальная высота подъема тела, брошенного вертикально",
+        "require": "<span class=\"icon-phys_h-sm-max\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_m-sm-2\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_sin\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+
+    {
+        "id": "008",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Время подъема тела, брошенного вертикально",
+        "require": "<span class=\"icon-phys_t-sm-max\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm-0\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_m-sm-2\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_sin\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "009",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Максимальная высота при броске под углом",
+        "require": "<span class=\"icon-phys_h-sm-max\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_sq-sin\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_sin\"></span>", "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "010",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Время подъема",
+        "require": "<span class=\"icon-phys_t-sm-up\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_sin\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_sq-sin\"></span>", "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_db-sin\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "011",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Время полета",
+        "require": "<span class=\"icon-phys_t-sm-max\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_sin\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_sq-sin\"></span>", "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_db-sin\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "012",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Период вращения при движении по окружности",
+        "require": "<span class=\"icon-phys_t-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_t-sm\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_n-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "013",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Частота вращения при движении по окружности",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_n-lg\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_m-sm-1\"></span>", "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "014",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Линейная скорость при движении по окружности",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_pi\"></span>", "<span class=\"icon-phys_r-lg\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_t-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_delta-fi\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "015",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Линейная скорость при движении по окружности",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_pi\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_delta-fi\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "016",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Угловая скорость вращения при движении по окружности",
+        "require": "<span class=\"icon-phys_om\"></span>",
+        "numerator" : ["<span class=\"icon-phys_delta-fi\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "017",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Угловая скорость вращения при движении по окружности",
+        "require": "<span class=\"icon-phys_om\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_pi\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_t-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sq-pi\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "018",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Угловая скорость вращения при движении по окружности",
+        "require": "<span class=\"icon-phys_om\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_pi\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", 
+            "<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_sq-pi\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "019",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Центростремительное ускорение",
+        "require": "<span class=\"icon-phys_a-ctr\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-v-sm\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-r-lg\"></span>", 
+            "<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "020",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Центростремительное ускорение",
+        "require": "<span class=\"icon-phys_a-ctr\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-om\"></span>", "<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-r-lg\"></span>", 
+            "<span class=\"icon-phys_om\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "021",
+        "theme": "Кинематика",
+        "subject": "phys",
+        "name": "Центростремительное ускорение",
+        "require": "<span class=\"icon-phys_a-ctr\"></span>",
+        "numerator" : ["<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_om\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_sq-r-lg\"></span>", 
+            "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+
+
+
+
+
+    {
+        "id": "022",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Второй закон Ньютона",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_a-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_x-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+
+    {
+        "id": "023",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Сила упругости",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "024",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Закон всемирного тяготения",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_m-lg\"></span>", "<span class=\"icon-phys_m-sm\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_sq-r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "025",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Ускорение свободного падения",
+        "require": "<span class=\"icon-phys_g-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_m-lg\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_sq-r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+
+
+    {
+        "id": "026",
+        "theme": "Динамика",
+        "subject": "phys",
+        "name": "Сила тяжести",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_g-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_g-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>", 
+            "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_a-ctr\"></span>", "<span class=\"icon-phys_a-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+
+
+
+
+
+    {
+        "id": "027",
+        "theme": "Гидростатика",
+        "subject": "phys",
+        "name": "Давление",
+        "require": "<span class=\"icon-phys_p-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_f-lg\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_s-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_h-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_n-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "028",
+        "theme": "Гидростатика",
+        "subject": "phys",
+        "name": "Давление столба жидкости",
+        "require": "<span class=\"icon-phys_p-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_h-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_n-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "029",
+        "theme": "Гидростатика",
+        "subject": "phys",
+        "name": "КПД для неидеального гидравлического пресса",
+        "require": "<span class=\"icon-phys_kpd\"></span>",
+        "numerator" : ["<span class=\"icon-phys_f-lg-2\"></span>", "<span class=\"icon-phys_h-sm-2\"></span>"],
+        "denumerator": ["<span class=\"icon-phys_f-lg-1\"></span>", "<span class=\"icon-phys_h-sm-1\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_h-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_n-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order" : "none"
+    },
+    {
+        "id": "030",
+        "theme": "Гидростатика",
+        "subject": "phys",
+        "name": "Сила Архимеда",
+        "require": "<span class=\"icon-phys_f-lg-a\"></span>",
+        "numerator" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_lmbd\"></span>", "<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_h-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_n-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+
+
+
+
+
+    {
+        "id": "031",
+        "theme": "Работа, мощность, энергия",
+        "subject": "phys",
+        "name": "Механическая работа",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_f-lg\"></span>", "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_cos\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_sq-sin\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "032",
+        "theme": "Работа, мощность, энергия",
+        "subject": "phys",
+        "name": "Мощность",
+        "require": "<span class=\"icon-phys_p-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_a-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sin\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_w-lg-kin\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "033",
+        "theme": "Работа, мощность, энергия",
+        "subject": "phys",
+        "name": "КПД",
+        "require": "<span class=\"icon-phys_kpd\"></span>",
+        "numerator" : ["<span class=\"icon-phys_a-lg-us\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_a-lg-req\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_delta-p-sm\"></span>", "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_x-sm\"></span>", 
+            "<span class=\"icon-phys_cos\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sin\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_w-lg-kin\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "034",
+        "theme": "Работа, мощность, энергия",
+        "subject": "phys",
+        "name": "Кинетическая энергия",
+        "require": "<span class=\"icon-phys_w-lg-kin\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_a-lg-us\"></span>", "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_p-lg\"></span>", 
+            "<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_a-lg-req\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_w-lg-pot\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "035",
+        "theme": "Работа, мощность, энергия",
+        "subject": "phys",
+        "name": "Потенциальная энергия",
+        "require": "<span class=\"icon-phys_w-lg-pot\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_h-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sin\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_p-lg\"></span>", 
+            "<span class=\"icon-phys_v-sm-0\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_w-lg-kin\"></span>"],
+        "numerator_order" : "none"
+    },
+
+
+
+
+
+    {
+        "id": "036",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Количество вещества",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_m-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_a-lg-us\"></span>", "<span class=\"icon-phys_m-sm-0\"></span>", "<span class=\"icon-phys_p-lg\"></span>", 
+            "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "037",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Количество вещества",
+        "require": "<span class=\"icon-phys_v-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_n-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_n-lg-a\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_m-lg\"></span>", "<span class=\"icon-phys_m-sm-0\"></span>", "<span class=\"icon-phys_p-lg\"></span>", 
+            "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "038",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Масса одной молекулы",
+        "require": "<span class=\"icon-phys_m-sm-0\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_n-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_m-lg\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_p-lg\"></span>", 
+            "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "039",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Масса одной молекулы",
+        "require": "<span class=\"icon-phys_m-sm-0\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_n-lg-a\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_n-sm\"></span>", 
+            "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_k-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "040",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Масса одной молекулы",
+        "require": "<span class=\"icon-phys_m-sm-0\"></span>",
+        "numerator" : ["<span class=\"icon-phys_ro\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_n-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", 
+            "<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_k-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "041",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Основное уравнение МКТ",
+        "require": "<span class=\"icon-phys_p-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_m-sm-0\"></span>", "<span class=\"icon-phys_sq-v-sm-mid\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_3\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", 
+            "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "042",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Концентрация",
+        "require": "<span class=\"icon-phys_n-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_n-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_v-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_sq-v-sm-mid\"></span>", 
+            "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_m-sm-0\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "043",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Средняя квадратичная скорость",
+        "require": "<span class=\"icon-phys_sq-v-sm-mid\"></span>",
+        "numerator" : ["<span class=\"icon-phys_3\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_m-sm-0\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", 
+            "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_v-lg\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "044",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Средняя квадратичная скорость",
+        "require": "<span class=\"icon-phys_sq-v-sm-mid\"></span>",
+        "numerator" : ["<span class=\"icon-phys_3\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", "<span class=\"icon-phys_n-lg\"></span>"],
+        "denumerator" : ["<span class=\"icon-phys_m-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", 
+            "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_v-lg\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "045",
+        "theme": "МКТ",
+        "subject": "phys",
+        "name": "Уравнение Менделеева-Клапейрона",
+        "require": "<span class=\"icon-phys_p-lg\"></span><span class=\"icon-phys_v-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_k-lg\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", 
+            "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_m-sm-0\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none"
+    },
+
+
+
+
+
+    {
+        "id": "046",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Количество теплоты (Нагревание или охлаждение)",
+        "require": "<span class=\"icon-phys_q-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_lmbd\"></span>", "<span class=\"icon-phys_lmbd-0\"></span>", "<span class=\"icon-phys_l-lg\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_delta-q-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "047",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Количество теплоты (Плавление или кристаллизация)",
+        "require": "<span class=\"icon-phys_q-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_lmbd\"></span>", "<span class=\"icon-phys_m-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_l-lg\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_delta-q-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "048",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Количество теплоты (Парообразование или конденсация)",
+        "require": "<span class=\"icon-phys_q-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_m-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_delta-q-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "049",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Работа идеального газа",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_delta-v-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "050",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Работа идеального газа",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_m-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_delta-t-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_m-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "051",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Внутренняя энергия идеального одноатомного газа",
+        "require": "<span class=\"icon-phys_u-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_3\"></span>","<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_v-lg\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_a-lg\"></span>", "<span class=\"icon-phys_kpd\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "052",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Внутренняя энергия идеального одноатомного газа",
+        "require": "<span class=\"icon-phys_u-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_3\"></span>","<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_v-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_a-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "053",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Изменение внутренней энергии",
+        "require": "<span class=\"icon-phys_delta-u-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_3\"></span>","<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_delta-t-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_minus\"></span>", "<span class=\"icon-phys_lmbd\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_a-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order": "none"
+    },
+    {
+        "id": "054",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Первый закон трмодинамики",
+        "require": "<span class=\"icon-phys_q-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_delta-u-lg\"></span>","<span class=\"icon-phys_plus\"></span>", "<span class=\"icon-phys_a-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_minus\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "055",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "КПД тепловой машины",
+        "require": "<span class=\"icon-phys_kpd\"></span>",
+        "numerator" : ["<span class=\"icon-phys_a-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_q-lg-temp-up\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_q-lg-temp-down\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_v-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "056",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Абсолютная влажность",
+        "require": "<span class=\"icon-phys_ro\"></span>",
+        "numerator" : ["<span class=\"icon-phys_p-sm\"></span>", "<span class=\"icon-phys_m-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_sgm\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "057",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Относительная влажность воздуха",
+        "require": "<span class=\"icon-phys_fi\"></span>",
+        "numerator" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-math_100\"></span>"],
+        "denumerator":["<span class=\"icon-phys_ro-0\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_delta-t-lg\"></span>", "<span class=\"icon-phys_sgm\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "058",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Потенциальная энергия поверхности жидкости",
+        "require": "<span class=\"icon-phys_e-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sgm\"></span>","<span class=\"icon-phys_s-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "059",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Сила поверхностного натяжения, действующая на участок границы жидкости",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sgm\"></span>","<span class=\"icon-phys_l-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_sq-v-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_ro-0\"></span>", "<span class=\"icon-phys_t-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "060",
+        "theme": "Термодинамика",
+        "subject": "phys",
+        "name": "Высота столба жидкости в капилляре",
+        "require": "<span class=\"icon-phys_h-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_2\"></span>", "<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_cos\"></span>"],
+        "denumerator":["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_g-sm\"></span>", "<span class=\"icon-phys_r-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_mu\"></span>", "<span class=\"icon-phys_delta-t-lg\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_n-lg-a\"></span>", "<span class=\"icon-phys_sq-v-sm-0\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_t-sm\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+
+
+
+
+
+    {
+        "id": "061",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Закон Кулона",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_abs-q-sm-1\"></span>", "<span class=\"icon-phys_abs-q-sm-2\"></span>"],
+        "denumerator":["<span class=\"icon-phys_e-sm\"></span>", "<span class=\"icon-phys_sq-r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_sq-i-lg\"></span>", 
+            "<span class=\"icon-phys_e-lg\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_u-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "062",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Напряжённость электрического поля",
+        "require": "<span class=\"icon-phys_e-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_f-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_q-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_u-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "063",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Напряжение",
+        "require": "<span class=\"icon-phys_u-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_e-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "064",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Работа электрического поля в общем случае",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "065",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Работа электрического поля в однородном поле при перемещении заряда",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>", "<span class=\"icon-phys_e-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_delta-fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "066",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Потенциал заряда",
+        "require": "<span class=\"icon-phys_fi\"></span>",
+        "numerator" : ["<span class=\"icon-phys_w-lg-pot\"></span>"],
+        "denumerator":["<span class=\"icon-phys_q-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "067",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Ёмкость плоского конденсатора",
+        "require": "<span class=\"icon-phys_c-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_u-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_farad\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "068",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Ёмкость плоского конденсатора",
+        "require": "<span class=\"icon-phys_c-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_e-sm\"></span>", "<span class=\"icon-phys_e-sm-0\"></span>", "<span class=\"icon-phys_s-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_d-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_farad\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "069",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Заряд конденсатора",
+        "require": "<span class=\"icon-phys_q-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_u-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", "<span class=\"icon-phys_farad\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_fi\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "070",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Напряжённость электрического поля внутри плоского конденсатора",
+        "require": "<span class=\"icon-phys_e-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_u-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_d-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_farad\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "071",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Сила притяжения пластин плоского конденсатор",
+        "require": "<span class=\"icon-phys_f-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>", "<span class=\"icon-phys_e-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_farad\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "072",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Энергия конденсатора",
+        "require": "<span class=\"icon-phys_w-lg-pot\"></span>",
+        "numerator" : ["<span class=\"icon-phys_c-lg\"></span>", "<span class=\"icon-phys_sq-u-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_i-lg\"></span>", 
+            "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_q-sm-1\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "073",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Энергия конденсатора",
+        "require": "<span class=\"icon-phys_w-lg-pot\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>", "<span class=\"icon-phys_u-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_2\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_q-lg\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "074",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Линейная плотность заряда",
+        "require": "<span class=\"icon-phys_lmbd\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_l-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "075",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Поверхностная плотность заряда",
+        "require": "<span class=\"icon-phys_sgm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_s-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "076",
+        "theme": "Электростатика",
+        "subject": "phys",
+        "name": "Объёмная плотность заряда",
+        "require": "<span class=\"icon-phys_ro\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_v-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-c-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+
+
+
+
+
+    {
+        "id": "077",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Сила тока",
+        "require": "<span class=\"icon-phys_i-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "078",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Плотность тока",
+        "require": "<span class=\"icon-phys_j-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_i-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_s-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "079",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Плотность тока",
+        "require": "<span class=\"icon-phys_j-sm\"></span>",
+        "numerator" : ["<span class=\"icon-phys_q-sm-0\"></span>", "<span class=\"icon-phys_n-sm\"></span>", "<span class=\"icon-phys_v-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_l-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "080",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Сопротивление проводника",
+        "require": "<span class=\"icon-phys_r-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_l-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_s-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_sq-t-sm\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_delta-farad\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "081",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Закон Ома",
+        "require": "<span class=\"icon-phys_i-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_u-lg\"></span>"],
+        "denumerator":["<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "082",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Работа электрического тока",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "083",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Работа электрического тока",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_i-lg\"></span>", "<span class=\"icon-phys_u-lg\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none"
+    },
+    {
+        "id": "084",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Работа электрического тока",
+        "require": "<span class=\"icon-phys_a-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_delta-t-sm\"></span>"],
+        "denumerator":["<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sgm\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_fi\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none",
+        "denumerator_order":"none"
+    },
+    {
+        "id": "085",
+        "theme": "Электрический ток",
+        "subject": "phys",
+        "name": "Мощность электрического тока",
+        "require": "<span class=\"icon-phys_p-lg\"></span>",
+        "numerator" : ["<span class=\"icon-phys_sq-i-lg\"></span>", "<span class=\"icon-phys_r-lg\"></span>"],
+        "random_chars" : ["<span class=\"icon-phys_sq-r-lg\"></span>", "<span class=\"icon-phys_d-sm\"></span>", "<span class=\"icon-phys_t-lg\"></span>", 
+            "<span class=\"icon-phys_s-lg\"></span>", "<span class=\"icon-phys_k-sm\"></span>", "<span class=\"icon-phys_ro\"></span>", "<span class=\"icon-phys_sq-u-lg\"></span>", "<span class=\"icon-phys_c-lg\"></span>"],
+        "numerator_order" : "none"
+    }
+
+]
+

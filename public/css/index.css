@@ -1,0 +1,439 @@
+/* ------------------ Общие стили ------------------ */
+:root {
+    --dark-bg: #010d20;
+    --light-bg: #0a1934;
+    --blue: #022dba;
+    --light-blue: #0b65ff;
+    --text-color: #eee;
+    --general-transition: all 400ms ease;
+}
+
+/* вес шрифтов 400, 500, 600, 700 */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-45deg, var(--dark-bg), var(--light-bg));
+}
+
+input, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--blue);
+    transition: var(--general-transition);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #011f81;
+}
+
+.disabled_btn {
+    background-color: #3f4771;
+    pointer-events: none;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px 10px 0;
+    background-color: var(--dark-bg);
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn .85s ease;
+    animation-fill-mode: forwards;
+}
+
+.security_error{
+    background-color: #af0202;
+    height: 0;
+    margin: 15px auto;
+    border-radius: 5px;
+    color: var(--text-color);
+    transition: var(--general-transition);
+    box-shadow: 0 5px 20px #af0202;
+    font-weight: 500;
+}
+
+/* Логотип */
+
+.logo-wrapper {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+}
+
+/* ------------------ aside ------------------ */
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 100vh;
+    padding: 70px 0 0 70px;
+    color: var(--text-color);
+    background: linear-gradient(-90deg, var(--dark-bg), var(--light-bg));
+    transition: all .8s ease;
+}
+
+aside .burger-wrapper {
+    display: none;
+}
+
+/* ------------------ main ------------------ */
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    padding: 8vh 0 0 420px;
+    min-height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, var(--dark-bg), #112955);
+}
+
+/* ------------------ footer ------------------ */
+
+footer {
+    position: fixed;
+    width: 280px;
+    left: 70px;
+    bottom: 0;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+footer a {
+    color: var(--text-color);   
+}
+
+/* ------------------ Пульсирующий эффект ------------------ */
+
+.pulse__btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.pulse__overlay {
+    z-index: 200;
+    position: absolute;
+    opacity: .7;
+    background-color: var(--light-blue);
+    border-radius: 50%;
+    animation: pulse .7s ease-out;
+    transform: scale(0);
+}
+
+
+/* ------------------ Анимации ------------------ */
+
+@keyframes pulse {
+    to {
+        transform: scale(2);
+        background-color: #eee;
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* ------------------ Бургер ------------------ */
+
+.burger-wrapper {
+    width: 70px;
+    height: 70px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 3%;
+    bottom: 4%;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    box-shadow: 0 0 10px var(--blue);
+    z-index: 100000;
+    background-color: var(--dark-bg);
+    transition: var(--general-transition);
+}
+
+.burger {
+    width: 35px;
+    height: 22px;
+    cursor: pointer;
+    position: relative;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--blue);
+    position: absolute;
+    left: 0;
+}
+
+.top-line {
+    top: 0;
+    transition: all 200ms ease;
+}
+
+.top-line_mid{
+    top: 50%;
+}
+
+.top-line_rotate {
+    transform: rotate(45deg);
+}
+
+.middle-line {
+    top: 50%;
+    transition: all 200ms ease;
+}
+
+.bottom-line {
+    top: 100%;
+    transition: all 200ms ease;
+}
+
+.bottom-line_mid {
+    top: 50%;
+}
+
+.bottom-line_rotate {
+    transform: rotate(-45deg);
+}
+
+
+/* ------------------ Рейтинг ------------------ */
+
+.rating {
+    max-width: 100%;
+}
+
+.rating__content {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rating__content h3 {
+    font-size: 1.1rem;
+}
+
+.note {
+    font-size: 1.2rem;
+    color: var(--light-blue);
+}
+
+.rating__title h2 {
+    margin-bottom: 12px;
+}
+
+
+/* ------------------ Медиа запросы ------------------ */
+
+@media screen and (max-width: 1300px) {
+    aside {
+        width: 280px; 
+    }
+
+    main {
+        flex-direction: column;
+        padding: 8vh 0 0 370px;
+    } 
+
+    footer {
+        align-items: start;
+        flex-direction: column;
+        width: 280px;
+        font-size: 0.9rem;
+    }
+
+    footer a {
+        margin-bottom: 10px;
+    }
+
+    .rating-wrapper {
+        margin-left: 0 !important;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+
+    body {
+        background: var(--light-bg);
+    }
+
+    .burger-wrapper {
+        display: flex;
+    }
+
+    footer {
+        display: none;
+    }
+
+    main {
+        background: var(--light-bg);
+        box-sizing: border-box;
+        padding: 50px 25px 0 25px;
+    }
+
+    aside .burger-wrapper {
+        display: flex;
+    }
+
+    aside {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        clip-path: circle(0 at 91% 94% ); 
+        -webkit-clip-path: circle(0 at 91% 94% );
+        pointer-events: none;
+    }
+
+    aside .burger {
+        pointer-events: all;
+    }
+
+    .aside__visible {
+        pointer-events: all;
+        clip-path: circle(1500px at 95% 95%);
+        -webkit-clip-path:  circle(1500px at 95% 95%); 
+        background: linear-gradient(-90deg, var(--dark-bg), var(--light-bg));
+    }
+
+    a:hover {
+        background: none;
+        background-color: none;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .wrapper {
+        width: 100% !important;
+        margin: 0 0 10px 0;
+        min-width: unset !important;
+    }
+
+    .btns-wrapper {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btns-wrapper a {
+        max-width: unset;
+        width: 100%;
+        margin: 5px;
+    }
+
+    main {
+        padding: 25px 10px 0 10px;
+    }
+
+    .info h4 {
+        font-size: .9rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        left: 15px;
+    }
+
+    footer a {
+        font-size: 0.7rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    #recover_password {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    a {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
